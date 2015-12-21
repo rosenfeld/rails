@@ -70,7 +70,7 @@
 *   Implements an evented file watcher to asynchronously detect changes in the
     application source code, routes, locales, etc.
 
-    This watcher is disabled by default, applications my enable it in the configuration:
+    This watcher is disabled by default, applications may enable it in the configuration:
 
         # config/environments/development.rb
         config.file_watcher = ActiveSupport::EventedFileUpdateChecker
